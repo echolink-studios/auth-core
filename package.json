@@ -1,5 +1,9 @@
 {
 	"name": "auth-core",
+	"version": "0.0.1",
+	"description": "Auth-Core package for Echolink Studios",
+	"author": "Echolink Studios",
+	"license": "MIT",
 	"module": "index.ts",
 	"type": "module",
 	"devDependencies": {
