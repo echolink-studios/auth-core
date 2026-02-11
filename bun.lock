@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "templates",
+      "name": "auth-core",
       "devDependencies": {
         "@eslint/js": "^10.0.1",
         "@types/bun": "latest",

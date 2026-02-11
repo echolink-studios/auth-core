@@ -1,4 +1,4 @@
-# templates
+# Auth-Core Package
 
 To install dependencies:
 
