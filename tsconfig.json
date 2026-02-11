@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Language & runtime */
+    "target": "ES2023",
+    "lib": ["ES2023"],
+    "module": "ESNext",
+
+    /* Output */
+    "outDir": "./dist",
+    "sourceMap": true,
+
+    /* Resolution */
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "allowImportingTsExtensions": false,
+    "resolveJsonModule": true,
+
+    /* ESM correctness */
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
+    /* Type safety & style */
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noUncheckedIndexedAccess": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "useUnknownInCatchVariables": true,
+
+    /* Performance */
+    "skipLibCheck": true,
+    "incremental": true,
+
+  },
+  "include": ["src"]
+}
