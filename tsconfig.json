@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+
+		"target": "ES2022",
+		"lib": ["ESNext", "DOM"],
+		"declaration": true,
+		"outDir": "./dist",
+		"noEmit": true,
+
+		/* NestJS Compatibility */
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+
+		/* Strictness */
+		"strict": true,
+		"skipLibCheck": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"forceConsistentCasingInFileNames": true,
+
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist", "**/*.test.ts"]
+}

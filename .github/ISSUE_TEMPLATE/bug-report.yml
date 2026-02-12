@@ -1,0 +1,20 @@
+name: Bug Report
+description: Use this template to create a bug report
+type: 'Bug'
+body:
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      placeholder: Describe the bug...
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: Steps to reproduce...
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      placeholder: Describe the expected behavior...
+  - type: textarea
+    attributes:
+      label: Additional context
+      placeholder: Add any additional context (e.g. screenshots)...

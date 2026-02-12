@@ -1,0 +1,44 @@
+{
+	"name": "auth-core",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.cts",
+	"exports": {
+		".": {
+			"import": {
+				"types": "./dist/index.d.mts",
+				"default": "./dist/index.mjs"
+			},
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			}
+		}
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsdown",
+		"dev": "tsdown --watch",
+		"test": "bun test",
+		"lint": "eslint src",
+		"prepare": "tsdown",
+		"prepublishOnly": "bun run build"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"@types/bun": "latest",
+		"@types/node": "^25.2.3",
+		"eslint-plugin-prettier": "^5.5.5",
+		"globals": "^17.3.0",
+		"tsdown": "^0.20.3",
+		"typescript": "^5.9.3",
+		"typescript-eslint": "^8.55.0"
+	}
+}
