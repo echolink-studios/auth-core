@@ -1,0 +1,26 @@
+name: User Story
+description: Use this template to create a user story
+type: 'Feature'
+body:
+  - type: textarea
+    attributes:
+      label: User Story
+      placeholder: |
+        As a [role]
+        I want [an action or feature],
+        So that [a reason or benefit].
+      value: |
+        As a [role]
+        I want [an action or feature],
+        So that [a reason or benefit].
+  - type: textarea
+    attributes:
+      label: Acceptance Criteria
+      placeholder: |
+        - [ ] Describe the first acceptance criterion here.
+        - [ ] Describe the second acceptance criterion here.
+        - [ ] Describe additional criteria as needed.
+      value: |
+        - [ ] Describe the first acceptance criterion here.
+        - [ ] Describe the second acceptance criterion here.
+        - [ ] Describe additional criteria as needed.

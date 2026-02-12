@@ -1,0 +1,15 @@
+version: 2
+updates:
+  - package-ecosystem: 'bun'
+    directory: '/'
+    target-branch: main
+    schedule:
+      interval: 'weekly'
+    reviewers:
+      - 'Echolink-Studios/developers'
+    commit-message:
+      prefix: 'chore(deps)'
+    groups:
+      dependencies:
+        patterns:
+          - '*'
