@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/echolink-studios/auth-core/compare/v1.1.0...v1.2.0) (2026-02-13)
+
+
+### Features
+
+* remove npm publish step from release workflow ([af9659d](https://github.com/echolink-studios/auth-core/commit/af9659d74b33b5a76cc481a4de45b8ea78f6324d))
+
 ## [1.1.0](https://github.com/echolink-studios/auth-core/compare/v1.0.0...v1.1.0) (2026-02-13)
 
 
